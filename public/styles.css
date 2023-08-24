@@ -1,0 +1,74 @@
+ul {
+  list-style-type: none;
+}
+
+container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+  width: 500px;
+  margin: 0 auto;
+}
+
+body {
+  background-color: #edab3d;
+  font: #2b2b2b;
+  font-family: "Shantell Sans", cursive;
+}
+
+footer {
+  bottom: 0;
+  margin-top: auto;
+  position: fixed;
+  width: 100%;
+}
+
+img {
+  height: 60px;
+  width: 60px;
+  margin-left: 15px;
+}
+
+a {
+  text-decoration: none;
+}
+
+nav a.active {
+  background: blue;
+
+  color: white;
+}
+
+.gudetama {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.borderless {
+  border-width: 0px;
+  align-items: center;
+}
+
+.list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.knewaveFont {
+  font-family: "Knewave", cursive;
+}
+
+.strikethrough {
+  text-decoration: line-through;
+}
+
+.navContainer {
+  justify-content: space-between;
+}
+
+.work {
+  background-color: #6ebed5;
+}
